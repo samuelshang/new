@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<loading v-if="loading"></loading>
+		
 		<NavHeader v-show="headShow"></NavHeader>
 		<transition name="slide-down">
 			<keep-alive>
